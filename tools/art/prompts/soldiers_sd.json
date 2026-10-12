@@ -1,0 +1,20 @@
+{
+  "out": "tools/art/out/soldiers_sd",
+  "style": "style_sd.txt",
+  "jobs": [
+    {
+      "id": "soldiers1",
+      "refs": [
+        "tools/art/refs/seven_sd_ref.png"
+      ],
+      "prompt": "Match the line weight, flat two-tone shading and muted palette of the attached reference sheet, but draw a different subject.\nThree tiny full-body foot soldiers of the Chinese Three Kingdoms era - cheap interchangeable B-movie extras, the nameless grunts of a mass army - drawn as super-deformed figures about two and a half heads tall: a big round head, a stubby body, short arms and legs. They stand in one horizontal row with wide plain white gaps between them, all facing RIGHT in a three-quarter side view, all at the same scale, feet on the same baseline. No ground, no cast shadow, no frame lines, no panels. Plain flat pure white background. Every figure has a clean thick black outline all around it.\nUniform, identical on all three: a cobalt-blue cloth tunic and a cobalt-blue headband - these are the ONLY blue things in the picture; a plain brown leather vest over the tunic, dark trousers, simple straw sandals. The same generic grumpy face on all three: heavy brows, shadowed eyes, a small frown.\nLeft: a spearman holding a long spear upright and a small round wooden shield.\nMiddle: an archer drawing a short bow, a quiver on his back.\nRight: a cavalryman sitting on a small stubby brown horse (also super-deformed, short legs, big head), holding a spear; the horse faces right too."
+    },
+    {
+      "id": "soldiers2",
+      "refs": [
+        "tools/art/refs/seven_sd_ref.png"
+      ],
+      "prompt": "Match the line weight, flat two-tone shading and muted palette of the attached reference sheet, but draw a different subject.\nThree tiny full-body foot soldiers of the Chinese Three Kingdoms era - cheap interchangeable B-movie extras, the nameless grunts of a mass army - drawn as super-deformed figures about two and a half heads tall: a big round head, a stubby body, short arms and legs. They stand in one horizontal row with wide plain white gaps between them, all facing RIGHT in a three-quarter side view, all at the same scale, feet on the same baseline. No ground, no cast shadow, no frame lines, no panels. Plain flat pure white background. Every figure has a clean thick black outline all around it.\nUniform, identical on all three: a cobalt-blue cloth tunic and a cobalt-blue headband - these are the ONLY blue things in the picture; a plain brown leather vest over the tunic, dark trousers, simple straw sandals. The same generic grumpy face on all three: heavy brows, shadowed eyes, a small frown.\nLeft: a spearman holding a long spear upright and a small round wooden shield.\nMiddle: an archer drawing a short bow, a quiver on his back.\nRight: a cavalryman sitting on a small stubby brown horse (also super-deformed, short legs, big head), holding a spear; the horse faces right too."
+    }
+  ]
+}

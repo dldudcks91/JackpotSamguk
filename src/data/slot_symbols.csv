@@ -1,0 +1,6 @@
+id,glyph,name,kind,weight,icon,desc
+soldier,卒,충원,soldier,34,soldier,병사를 데려온다
+train,練,훈련,train,18,train,훈련 조각 · 셋이면 훈련 카드
+book,書,병법,tech,16,book,병법 조각 · 셋이면 병법 카드
+coin,錢,엽전,coin,28,coin,군자금
+wild,時,시공 균열,wild,4,wild,아무 그림이나 된다 · 셋이면 잭팟

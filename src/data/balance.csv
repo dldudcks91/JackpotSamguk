@@ -1,0 +1,97 @@
+key,value,description
+field_w,1200,전장 가로 (논리 단위)
+field_h,600,전장 세로
+leak_x,26,적이 이 x 보다 왼쪽에 닿으면 성에 닿은 것
+spawn_x,1230,적이 나타나는 x
+spawn_y_min,70,적이 나타나는 y 범위
+spawn_y_max,530,
+deploy_x0,110,배치 칸 첫 열(후열) x
+deploy_dx,140,배치 칸 열 간격
+deploy_y0,135,배치 칸 첫 줄 y
+deploy_dy,165,배치 칸 줄 간격
+tick,0.05,전투 한 걸음(초)
+time_limit,150,웨이브 시간 제한(초) — 넘기면 남은 적이 성에 닿은 것으로 친다
+aggro_player,300,아군이 적을 알아채는 거리
+aggro_enemy,230,적이 아군을 알아채는 거리
+leash,300,아군 부대가 자기 칸에서 마중 나가는 최대 거리 (장수 기준)
+soldier_radius,6,병사 크기
+hero_radius,20,장수 크기
+boss_radius,28,보스 크기
+officer_radius,17,적 부장 크기
+melee_reach,5,근접 공격이 닿는 여유 거리
+formation_rows,5,부대 대형 — 장수 뒤에 병사가 몇 줄로 서나
+formation_gap,13,부대 대형 — 병사 사이 간격
+formation_back,30,부대 대형 — 장수와 첫 병사 열 사이
+march_mult,1.6,행군 배율 — 부대 · 무리가 싸우지 않고 움직일 때 속도
+skirmish,110,교전 중인 병사가 자기 장수(부장) 곁에서 적을 찾는 거리
+guard_bias,45,병사가 남은 장수를 적이 덜 노린다 — 장수까지 거리에 더해 계산
+officer_hp,260,적 부장 체력 (스테이지 체력 배율을 곱한다)
+officer_dmg,11,적 부장 데미지 (스테이지 데미지 배율을 곱한다)
+officer_str_base,50,적 부장 무력 — 일기토에 쓴다
+officer_str_step,4,적 부장 무력 — 스테이지가 하나 오를 때마다 더한다
+flee_time,2.5,부장을 잃은 무리가 도망치다 사라지는 시간(초)
+flee_speed,1.3,도망치는 속도 배율
+duel_reach,12,장수와 적 부장(보스)이 이 거리 안에 닿으면 일기토
+duel_pow,2,일기토 승률 = 무력^pow 비 (클수록 무력 차이가 크게 먹힌다)
+duel_hero_loss,0.4,일기토에 진 아군 장수가 잃는 체력 비율
+duel_boss_loss,0.25,일기토에 진 보스가 잃는 체력 비율 (진 부장은 쓰러진다)
+duel_cd,8,한 장수가 다시 일기토를 하기까지(초)
+leak_soldier,1,병사 한 명이 성에 닿으면 깎이는 성 체력
+leak_officer,3,적 부장이 성에 닿으면 깎이는 성 체력
+leak_boss,99,보스가 성에 닿으면 깎이는 성 체력 — 성 체력보다 크다 = 보스가 성문을 넘으면 그 판은 진다
+start_soldiers,3,판을 시작할 때 부대마다 병사 수
+enemy_count_mult,1,적 수 전체 배율 (난이도 손잡이)
+enemy_hp_mult,1.12,적 체력 전체 배율 (난이도 손잡이 — 보스 포함)
+enemy_dmg_mult,1,적 데미지 전체 배율 (난이도 손잡이 — 보스 포함)
+enemy_groups,3,적이 몇 무리로 나뉘어 오나
+group_jitter,2.5,무리마다 도착 시각이 흩어지는 시간(초) — 한 무리는 부장과 함께 한꺼번에 나타난다
+enemy_stage_ramp,0,스테이지가 하나 오를 때마다 적 체력·데미지에 더하는 비율 (난이도 곡선 손잡이)
+spin_cost_base,10,병사 슬롯 첫 스핀 값
+spin_cost_step,5,같은 준비 단계에서 돌릴 때마다 오르는 값
+tray_max,8,카드 칸 수
+pay_soldier_cell,2,卒 한 칸 = 병사 수
+pay_soldier_line,5,卒 한 줄 = 병사 수 더
+frag_per_card,3,조각 몇 개 = 카드 한 장
+pay_frag_line,3,練·書 한 줄 = 조각 더
+pay_coin_cell,3,錢 한 칸 = 군자금
+pay_coin_line,12,錢 한 줄 = 군자금 더
+jackpot_wild,3,時 이 개수 이상이면 시대착오 잭팟
+gold_per_kill,1,적 하나 쓰러뜨릴 때 군자금
+gold_wave_clear,20,웨이브를 막으면 군자금
+train_bonus,0.07,훈련 한 단계 = 그 병종 체력·데미지 +비율
+rank1_merit,12,중랑장이 되는 전공
+rank2_merit,35,장군이 되는 전공
+rank3_merit,80,대장군이 되는 전공
+grand_stat_mult,1.2,대장군 장수 체력·데미지 배율
+grand_cap_bonus,4,대장군 정원 보너스
+cap_base,4,정원 = cap_base + 통솔 × cap_per_lead
+cap_per_lead,0.12,
+hero_hp_base,160,장수 체력 = base + 무력 × per
+hero_hp_per_str,6,
+hero_dmg_base,8,장수 데미지 = base + 무력 × per
+hero_dmg_per_str,0.25,
+skill_int_base,0.5,계략 위력 배율 = base + 지력 × per
+skill_int_per,0.01,
+breakthrough_per,0.06,돌파 한 번 = 세 스탯 +비율
+breakthrough_max,5,돌파 상한
+tank_hp,1400,전차 체력
+tank_dmg,60,전차 포격 데미지
+tank_range,220,전차 사거리
+tank_cd,2.2,전차 포격 간격
+tank_splash,70,전차 포격 폭발 반경
+tank_speed,30,전차 속도
+summon_ttl_default,10,복병이 남는 시간
+fire_spread_chance,0.35,연환선 — 불붙은 적이 1초마다 옆으로 옮길 확률
+fire_spread_radius,55,연환선 — 불이 옮겨붙는 거리
+flood_speed,0.7,수공 — 모든 부대 이동 배율
+fame_per_kill,1,명성 — 적 하나
+fame_per_wave,8,명성 — 웨이브 하나 막을 때
+fame_boss,25,명성 — 보스를 쓰러뜨릴 때
+fame_first_clear,60,명성 — 처음 깬 스테이지
+fame_clear,20,명성 — 다시 깬 스테이지
+recruit_cost,120,등용 한 번 명성
+recruit_refund,60,돌파 상한 장수가 또 나오면 돌려받는 명성
+recruit_legend_score,5,등용 릴 점수 합 이 이상 = 전설
+recruit_elite_score,3,등용 릴 점수 합 이 이상 = 명장
+start_fame,240,새 게임 명성
+start_heroes,liubei|ganning|pangde,새 게임 장수

@@ -1,0 +1,22 @@
+{
+  "out": "tools/art/out/icons",
+  "style": "style_billboard.txt",
+  "jobs": [
+    {
+      "id": "icons1",
+      "prompt": "A 2x2 grid sheet of four separate game icons, each a single object centered in its own square panel with a wide empty margin, panels separated by thick gutters. Every panel background is one flat solid ivory color (#efe6cf) with no texture, no shadow, no vignette.\nEach object is painted as a bold simple silhouette with a thick dark outline so it still reads at 48 pixels.\nTop-left: a soldier's round iron helmet with a red tassel on top, a short spear leaning behind it.\nTop-right: a grey whetstone block with a short sword lying across it.\nBottom-left: a rolled bamboo-slip scroll tied with a red cord, half unrolled, the slips blank.\nBottom-right: one big old bronze coin with a square hole in the middle, the rim blank with no characters."
+    },
+    {
+      "id": "icons2",
+      "prompt": "A 2x2 grid sheet of four separate game icons, each a single object centered in its own square panel with a wide empty margin, panels separated by thick gutters. Every panel background is one flat solid ivory color (#efe6cf) with no texture, no shadow, no vignette.\nEach object is painted as a bold simple silhouette with a thick dark outline so it still reads at 48 pixels.\nTop-left: a modern chunky wristwatch with a cracked glass face, comically out of place (time-travel gag), the dial blank with no numbers.\nTop-right: a bronze tiger-shaped military tally (a crouching tiger figurine split down the middle), dull brown bronze.\nBottom-left: the same tiger-shaped military tally in silver-grey.\nBottom-right: the same tiger-shaped military tally in bright gold."
+    },
+    {
+      "id": "icons3",
+      "prompt": "A 2x2 grid sheet of four separate game icons, each a single object centered in its own square panel with a wide empty margin, panels separated by thick gutters. Every panel background is one flat solid ivory color (#efe6cf) with no texture, no shadow, no vignette.\nEach object is painted as a bold simple silhouette with a thick dark outline so it still reads at 48 pixels.\nTop-left: a big ripe peach with two green leaves and a small pink blossom on the twig.\nTop-right: a small olive-green modern army tank seen from the side, cartoonishly out of place.\nBottom-left: a heavy wooden fortress gate with iron studs set in a short stone wall.\nBottom-right: a red war banner on a pole, the cloth blank with no characters, fluttering."
+    },
+    {
+      "id": "icons4",
+      "prompt": "A 2x2 grid sheet of four separate game icons, each a single object centered in its own square panel with a wide empty margin, panels separated by thick gutters. Every panel background is one flat solid ivory color (#efe6cf) with no texture, no shadow, no vignette.\nEach object is painted as a bold simple silhouette with a thick dark outline so it still reads at 48 pixels.\nTop-left: a round wooden shield with an iron boss and a straight sword crossed behind it (infantry).\nTop-right: a recurved wooden bow with an arrow nocked (archers).\nBottom-left: a war horse head in side view with a red bridle (cavalry).\nBottom-right: a small stack of three old bronze coins with square holes, the coins blank with no characters."
+    }
+  ]
+}

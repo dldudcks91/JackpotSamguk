@@ -1,0 +1,4 @@
+id,name,glyph,hp,dmg,range,speed,cd
+infantry,보병,步,64,8,0,42,1.0
+archer,궁병,弓,36,7,210,40,1.45
+cavalry,기병,騎,72,10,0,78,1.15

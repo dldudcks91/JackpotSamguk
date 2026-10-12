@@ -1,0 +1,19 @@
+type,branch,branch_name,node,name,effects,desc
+infantry,a,돌파,1,중갑,armor=0.2,받는 피해 -20%
+infantry,a,돌파,2,돌진,speed=1.25|charge=1.8,이동 +25% · 첫 충돌 ×1.8
+infantry,a,돌파,3,함진영,dmg=1.35|splash=40:0.5,데미지 +35% · 주변까지 벤다
+infantry,b,수성,1,장창,reach=22|dmg=1.1,닿는 거리 + · 데미지 +10%
+infantry,b,수성,2,대방패,hp=1.4,체력 +40%
+infantry,b,수성,3,등갑병,armor=0.45|fireweak=2.5,받는 피해 -45% · 불에 2.5배
+archer,a,화살비,1,불화살,burn=6:3,맞은 적이 탄다
+archer,a,화살비,2,속사,cd=0.75,공격 속도 +33%
+archer,a,화살비,3,연노병,multi=3,한 번에 세 발
+archer,b,강궁,1,강궁,range=50|dmg=1.2,사거리 + · 데미지 +20%
+archer,b,강궁,2,조준,crit=0.25:2,4발 중 1발 두 배
+archer,b,강궁,3,선등사,bonus=cavalry:2.2|dmg=1.15,기병에게 ×2.2
+cavalry,a,돌격,1,돌격,charge=2,첫 충돌 ×2
+cavalry,a,돌격,2,중갑,hp=1.4|armor=0.1,체력 +40% · 받는 피해 -10%
+cavalry,a,돌격,3,서량철기,charge=3.2|dmg=1.2|splash=30:0.4,첫 충돌 ×3.2 · 주변까지
+cavalry,b,기사,1,기마궁,ranged=150,말 위에서 활을 쏜다
+cavalry,b,기사,2,속사,cd=0.8,공격 속도 +25%
+cavalry,b,기사,3,백마의종,multi=2|speed=1.2,두 발씩 · 이동 +20%

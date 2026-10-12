@@ -1,0 +1,5 @@
+id,glyph,name,score,weight,icon
+bronze,銅,동호부,0,58,tally_bronze
+silver,銀,은호부,1,28,tally_silver
+gold,金,금호부,2,10,tally_gold
+peach,桃,복숭아,1,4,peach

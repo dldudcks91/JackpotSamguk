@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>잭팟 삼국지 — 단정</title>
+<style>
+  body { background: #1b1410; color: #efe6cf; font: 15px/1.6 'Malgun Gothic', sans-serif; padding: 20px; }
+  .ok { color: #8fd18f; } .fail { color: #ff7a6a; font-weight: bold; }
+  h1 { font-size: 22px; }
+</style>
+</head>
+<body>
+<h1>잭팟 삼국지 — 단정 (node 의 run_tests.js 와 같은 묶음)</h1>
+<pre id="out"></pre>
+<script type="module">
+import { loadData } from '../ui/loader.js';
+import { runSuite } from './tests.js';
+const out = document.getElementById('out');
+const log = line => {
+    const span = document.createElement('span');
+    span.className = line.includes('FAIL') ? 'fail' : line.trim().startsWith('ok') ? 'ok' : '';
+    span.textContent = line + '\n';
+    out.append(span);
+};
+const data = await loadData('../data/');
+const r = runSuite(data, log);
+document.title = `${r.fail ? 'FAIL' : 'PASS'} ${r.pass}/${r.pass + r.fail}`;
+</script>
+</body>
+</html>

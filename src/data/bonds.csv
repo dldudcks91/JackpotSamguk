@@ -1,0 +1,6 @@
+id,name,members,need,effect,value,desc
+taoyuan,도원결의,liubei|guanyu|zhangfei,3,dmg,0.2,세 부대 데미지 +20%
+wuhu,오호대장군,guanyu|zhangfei|zhaoyun|machao|huangzhong,3,hp,0.2,그 부대 체력 +20%
+jiangdong,강동의 불길,zhouyu|luxun|sunquan,2,skill,0.3,그 장수 계략 위력 +30%
+weiguo,위의 맹장,caocao|xiahoudun|zhangliao|xuchu,3,spd,0.15,그 부대 공격 속도 +15%
+yingxiong,천하영웅,liubei|caocao,2,cdr,0.25,둘의 계략 대기 -25%

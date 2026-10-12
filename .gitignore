@@ -1,0 +1,5 @@
+# Codex 생성 원본(약 90MB) · 발주 기록 — 게임은 src/assets/art 의 설치본만 읽는다
+tools/art/out/
+tools/art/_run/
+__pycache__/
+node_modules/
